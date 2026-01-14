@@ -6,6 +6,12 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        '2xl': '1636px',
+      },
+    },
     extend: {
       colors: {
         border: 'hsl(var(--border))',
